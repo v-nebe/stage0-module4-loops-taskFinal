@@ -6,7 +6,7 @@ public class HalfPyramid {
         for(int i = 2, j = cathetusLength; j>0; i++, j--)
         {
             System.out.println(" ".repeat(j-1) + str);
-            str = "*"+str;
+            str = "*" + str;
 
         }
     }
